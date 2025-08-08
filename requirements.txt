@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]>=0.23.0
+tensorflow
+mysql-connector-python
+streamlit
+pydantic
+requests
+pandas
+scikit-learn

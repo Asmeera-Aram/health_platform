@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter Notebooks (if any checkpoints)
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model and encoder files
+models/*.joblib
+models/*.pkl
+models/__pycache__/
+
+# Dataset (large or sensitive data)
+data/*.csv
+*.zip
+
+# Ollama cache (optional if you're using it)
+ollama/
+
+# Hugging Face or LLM cache
+~/.cache/huggingface/
+~/.ollama/
+
+# Output folders
+outputs/
+logs/
+checkpoints/

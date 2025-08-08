@@ -1,0 +1,9 @@
+# Use LF for code
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+
+# Use CRLF for CSV or data files (if needed)
+*.csv text eol=crlf
